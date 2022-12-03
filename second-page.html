@@ -1,0 +1,87 @@
+ <!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Feline Fancy Survey</title>
+        <style>
+            body {background-color: lightgray;}
+        </style>
+        <style>
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+                    }
+
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                    }
+            .topnav hover {
+                background-color: #ddd;
+                color: black;
+                        }
+            .topnav a.active {
+                background-color: #04aa6d;
+                color: white;
+                            }
+
+        </style>
+            <div class="topnav">
+                <a href="file://wsl%24/Ubuntu/home/ernstesc/prep-work/aa-projects/first-website/first-website.html">Home</a>
+                <a class="active" href="file://wsl%24/Ubuntu/home/ernstesc/prep-work/aa-projects/first-website/second-page.html">Survey</a>
+                <a href="file://wsl%24/Ubuntu/home/ernstesc/prep-work/aa-projects/first-website/third-page.html">Resources</a>
+                <a href="file://wsl%24/Ubuntu/home/ernstesc/prep-work/aa-projects/first-website/last-page.html">Photos</a>
+            </div>
+    </head>
+    <body>
+<h1>Cat Survey</h1>
+<style>
+    h1 {color:blueviolet;}
+    legend {color: blueviolet;}
+    div {color: blueviolet;}
+    label {color: blueviolet;}
+    button {color:black;}
+</style>
+<form action=" /form-handling-url" method="post">
+    <fieldset>
+            <legend>Cats and You</legend>
+
+        <div>
+            <label for="number">Do you have any cats?</label>
+            <input type="text" id="number" name="number">
+        </div>
+            <br>
+        <div>
+            <label for="pets">If not, do you have any pets?</label>
+            <input type="text" id="pets" name="pets">
+        </div>
+        <br>
+        <div>
+            <label for="amount">How many pets do you have?</label><br>
+            <br>
+            <input type="checkbox" id="amount" name="amount" value="One">
+            <label for="amount">0</label>
+            <input type="checkbox" id="amount" name="amount" value="Two">
+            <label for="amount">1</label>
+            <input type="checkbox" id="amount" name="amount" value="More">
+            <label for="amount">2 or more</label>
+        </div>
+        <br>
+    <label for="pet-thoughts">Is there any pet you wish you had?</label>
+    <br>
+    <br>
+    <textarea id="pet-thoughts" name="pet-thoughts"
+                rows="5" cols="33">
+    </textarea>
+    <br>
+    <br>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+            </fieldset>
+        </body>
+    </html>
